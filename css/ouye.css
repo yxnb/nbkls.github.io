@@ -1,0 +1,57 @@
+.ouye{
+    position: fixed;
+    top: 65%;
+    left: 103%;
+    z-index: 6;
+}
+.ouye1 div{
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(80deg,rgb(4, 137, 214),rgb(4, 214, 109),rgb(140, 214, 4),rgb(192, 92, 11),rgb(221, 7, 7),rgb(11, 141, 192));
+    background-size: 400%;
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size:30px;
+}
+.ouye1{
+    position: absolute;
+    width:140px;height: 50px;margin: 0 auto;
+    top: 50%;left: 50%;
+    margin-top: -60px;
+    margin-left: -220px;
+    cursor: pointer;
+}
+.ouye1 div::after{
+    position: absolute;
+    z-index: -1;
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+    background-image: linear-gradient(80deg,rgb(4, 137, 214),rgb(4, 214, 109),rgb(140, 214, 4),rgb(192, 92, 11),rgb(221, 7, 7),rgb(11, 141, 192));
+    background-size: 400%;
+    border-radius: 50px;
+    content: '';
+    filter: blur(20px);
+}
+.biaoti:hover{
+    animation:move3 4s;
+}
+.ouye1 div:hover{
+    animation:move2 8s infinite;
+}
+.ouye1 div:hover::after{
+    animation:move2 8s infinite;
+}
+@keyframes move2{
+    100%{
+        background-position: 800px 0px;
+    }
+}
+@keyframes move3{
+    100%{
+        background-position: 23040px 0px;
+    }
+}

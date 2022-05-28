@@ -1,0 +1,106 @@
+.xtu1{
+    width: 550px;
+    height: 400px;
+    transition: all 0.6s;
+    position:absolute;
+    background:rgb(0, 0, 0);
+    overflow:hidden;
+    border-radius:3px;
+    box-shadow:0px 0px 1px 1px rgb(253, 253, 253);
+    background:url(../imags/zhanshi/langshu.jpg);
+    background-size: 100% 100%;
+}
+.xtu1 div{
+    width: 200%;
+    height: 40px;
+    transform:rotate(150deg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgb(255, 255, 255,.3),rgb(0, 0, 0,.0));
+    background-repeat: no-repeat;
+    position:relative;
+    top:200px;
+    left: -1000px;
+    opacity: 1;
+}
+.xtu1:hover{
+    animation:move 0.5s ;
+}
+.xtu1:hover div{
+    animation:move1 1s;
+}
+.xtu2{
+    width: 550px;
+    height: 400px;
+    transition: all 0.6s;
+    position:absolute;
+    background:rgb(0, 0, 0);
+    overflow:hidden;
+    border-radius:3px;
+    box-shadow:0px 0px 1px 1px rgb(253, 253, 253);
+    background:url(../imags/zhanshi/huantiapingyang.jpg);
+    background-size: 100% 100%;
+}
+.xtu2 div{
+    width: 200%;
+    height: 40px;
+    transform:rotate(150deg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgb(255, 255, 255,.3),rgb(0, 0, 0,.0));
+    background-repeat: no-repeat;
+    position:relative;
+    top:200px;
+    left: -1000px;
+    opacity: 1;
+}
+.xtu2:hover{
+    animation:move 0.5s ;
+}
+.xtu2:hover div{
+    animation:move1 1s ;
+}
+.xtu3{
+    width: 550px;
+    height: 400px;
+    transition: all 0.6s;
+    position:absolute;
+    background:rgb(0, 0, 0);
+    overflow:hidden;
+    border-radius:3px;
+    box-shadow:0px 0px 1px 1px rgb(253, 253, 253);
+    background:url(../imags/zhanshi/hua.jpg);
+    background-size: 100% 100%;
+}
+.xtu3 div{
+    width: 200%;
+    height: 40px;
+    transform:rotate(150deg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgb(255, 255, 255,.3),rgb(0, 0, 0,.0));
+    background-repeat: no-repeat;
+    position:relative;
+    top:200px;
+    left: -1000px;
+    opacity: 1;
+}
+.xtu3:hover{
+    animation:move 0.5s ;
+}
+.xtu3:hover div{
+    animation:move1 8s ;
+}
+@keyframes move{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: -5px;
+    }
+    100%{
+        top:0px;
+    }
+}
+@-webkit-keyframes move{
+    from{left:-150px;}
+    to{left:350px;}
+}
+@keyframes move1{
+    from{left:-1000px;}
+    to{left:600px;}
+}

@@ -1,0 +1,144 @@
+.anjian1 li:hover{color:#2fcfff;font-size: 30px;}
+img{
+	transition:all 0.7s;
+}
+.z5:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.z1:hover img{
+	transform: scale(1.2);
+	border-radius: 60px;
+}
+.z2:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.z3:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.z4:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.z5:hover img{
+	transform: scale(1.3);
+}
+.zz1:hover img{
+	transform: scale(1.2);
+	border-radius: 60px;
+}
+.zz2:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zz3:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zz4:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zz5:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zzz1:hover img{
+	transform: scale(1.2);
+	border-radius:60px;
+}
+.zzz2:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zzz3:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zzz4:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.zzz5:hover img{
+	transform: scale(1.3);
+	border-radius: 20px;
+}
+.z1:hover #f1{display: none;}
+.z1:hover{z-index: 100;}
+.z2:hover{z-index: 100;}
+.z3:hover{z-index: 100;}
+.z4:hover{z-index: 100;}
+.z5:hover{z-index: 100;}
+.zz1:hover #f2{display: none;}
+.zz1:hover{z-index: 100;}
+.zz2:hover{z-index: 100;}
+.zz3:hover{z-index: 100;}
+.zz4:hover{z-index: 100;}
+.zz5:hover{z-index: 100;}
+.zzz1:hover #f3{display: none;}
+.zzz1:hover{z-index: 100;}
+.zzz2:hover{z-index: 100;}
+.zzz3:hover{z-index: 100;}
+.zzz4:hover{z-index: 100;}
+.zzz5:hover{z-index: 100;}
+#zz1,#zz2,#zz3,#zz4,#zz5,#zz6,#zz7,#zz8,#zz9,#zz10,#zz11,#zz12,#zz13,#zz14,#zz15{
+	cursor: pointer;
+}
+.t1:hover{
+    z-index: 10;	
+}
+.t1:hover img{
+	transform: scale(1.07);
+	border-radius: 10px;
+}
+.t2:hover{
+    z-index: 10;	
+}
+.t2:hover img{
+	transform: scale(1.07);
+	border-radius: 10px;
+}
+.t3:hover{
+    z-index: 10;	
+}
+.t3:hover img{
+	transform: scale(1.07);
+	border-radius: 10px;
+}
+.t4:hover{
+    z-index: 10;	
+}
+.t4:hover img{
+	transform: scale(1.07);
+	border-radius: 10px;
+}
+.t5:hover{
+    z-index: 10;	
+}
+.t5:hover img{
+	transform: scale(1.07);
+	border-radius: 10px;
+}
+.btn:hover{
+	transform: scale(1.3)
+}
+.btn{
+	transition: all 0.7s;
+}
+.an1:hover img{
+	transform: scale(1.5)
+}
+.an2:hover img{
+	transform: scale(1.5)
+}
+li{
+	transition:all 0.6s;
+}
+.dbhx:hover img{
+	transform: scale(1.5);
+}
+.logo:hover img{
+	transform: scale(1.5);
+}

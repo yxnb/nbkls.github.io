@@ -1,0 +1,159 @@
+.box{
+    width: 1000px;
+    height: 500px;
+    position:relative;
+	overflow:hidden;
+	border-radius:8px;
+	box-shadow:0 0 0 1px hsla(0,0%,100%,.3) inset,0 .5em 1em rgba(0,0,0,0.6);
+	backdrop-filter: blur(15px);
+}
+.left{width: 350px;
+	height: 500px;
+	float: left;
+	background: url(../imags/nb/a.jpeg) no-repeat;
+	background-size: 120%;
+	background-position:-40px 0px;
+}
+.right{
+	margin-left: 350px;
+	width: 650px;
+	height: 500px;
+	text-align: center;
+}
+h4{
+	color:rgb(88, 88, 88);
+	font-size: 40px;
+	margin-top: 20px;
+}
+.acc{
+	width: 300px;
+	height: 30px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: orchid 10px;
+	background-color: rgba(255, 254, 254, 0);
+	font-size: 20px;
+}
+.submit{
+	width: 300px;
+	height: 40px;
+	background-color: rgba(196, 196, 196, 0.151);
+	border: none;
+	margin: 0 auto;
+	border-radius: 7px;
+	border-radius:8px;
+	font-size: 14px;
+	box-shadow:0 0 0 0.5px hsla(0,0%,100%,.3) inset,0 .1em .5em rgba(0,0,0,0.6);
+	cursor: pointer;
+}
+.kuang1,.kuang2{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: rgb(107, 107, 107) 1px solid;
+}
+.kuang1{
+	margin-top: 50px;
+}
+.kuang2{
+	margin-top: 50px;
+}
+.submit1{
+	margin-top: 50px;
+}
+.kuang1 input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: rgb(107, 107, 107);
+	font-size: 20px; 
+	}
+.kuang1	input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	color: rgb(107, 107, 107); 
+	font-size: 20px; 
+	}
+.kuang1 input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	color: rgb(107, 107, 107);
+	font-size: 20px;  
+	}
+.kuang1 input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	color: rgb(107, 107, 107);
+	font-size: 20px; 
+	}
+.kuang2 input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: rgb(107, 107, 107);
+	font-size: 20px; 
+	}
+.kuang2	input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	color: rgb(107, 107, 107); 
+	font-size: 20px; 
+	}
+.kuang2 input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	color: rgb(107, 107, 107);
+	font-size: 20px;  
+	}
+.kuang2 input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	color: rgb(107, 107, 107);
+	font-size: 20px; 
+	}
+.fn{
+	width: 650px;
+	height: 40px;
+	font-size: 20px;
+	text-align: left;
+}
+.fn a{
+	text-decoration: none;
+	color:rgb(65, 65, 65) ;
+	float: left;
+	margin-top: 60px;
+}
+.zhuche{
+	margin-left: 110px;
+}
+.zhaohui{
+	margin-left: 470px;
+}
+.fn a:hover{
+	text-decoration: underline;
+}
+.submit:hover{
+	box-shadow:0 0 0 0.5px hsla(0,0%,100%,.3) inset,0 .2em 1em rgba(0,0,0,0.6);
+}
+.kuang1 input[type=text]:focus { 
+    outline: none;
+}
+.kuang2 input[type=password]:focus { 
+    outline: none;
+}
+.chacha{
+	width: 20px;
+	height: 20px;
+	background: url(../imags/nb/chacha.png);
+	background-size: 100%;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.chacha:hover{
+	background:url(../imags/nb/chacha2.png);
+	background-size: 100%;
+}
+.worning{
+	animation: move10 2s;
+}
+@keyframes move10 {
+	0%{
+		top: -100%;
+	}
+	100%{
+		top: 50%;
+	}
+}
+.worning{animation-fill-mode:forwards;}
+@keyframes move9 {
+	0%{
+		top: 50%;
+	}
+	100%{
+		top: -100%;
+	}
+}

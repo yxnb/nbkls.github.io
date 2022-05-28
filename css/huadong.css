@@ -1,0 +1,48 @@
+.stu{
+    width: 150px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: -170px;
+    z-index: 6;
+}
+.stu2{
+    width: 150px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: -170px;
+    z-index: 6;
+}
+.stu3{
+    width: 150px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: -170px;
+    z-index: 6;
+}
+.stu div{
+    background: url(../imags/huakuai/1.jpeg) no-repeat;
+    width: 150px;
+    height: 200px;
+    background-size: 100% 100%;
+    position: sticky;
+    top: 100px;
+}
+.stu2 div{
+    background: url(../imags/huakuai/2.jpeg) no-repeat;
+    width: 150px;
+    height: 200px;
+    background-size: 100% 100%;
+    position: sticky;
+    top: 100px;
+}
+.stu3 div{
+    background: url(../imags/huakuai/3.jpeg) no-repeat;
+    width: 150px;
+    height: 200px;
+    background-size: 100% 100%;
+    position: sticky;
+    top: 100px;
+}
